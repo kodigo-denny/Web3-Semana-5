@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let cate = Number(prompt("Ingrese la categoria del empleado:"))
+        let sue = Number(prompt("Ingrese el sueldo:"))
+
+        switch(cate){
+            case 1:
+                nsue = sue * 1.15
+                break
+            case 2:
+                nsue = sue * 1.10
+                break
+            case 3:
+                nsue = sue * 1.08
+                break
+            case 4:
+                nsue = sue * 1.07
+                break
+        }
+
+        /*
+        alert("Categoria del empleado: " + cate)
+        alert("Nuevo sueldo: " + nsue)
+        */
+        //alert("Categoria del empleado: " + cate + "\nNuevo sueldo: " + nsue)
+
+        alert(`Categoria del empleado: ${cate}\nNuevo sueldo: ${nsue}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
