@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let horas = Number(prompt("Ingrese la cantidad de horas trabajadas: "))
+        let salario
+
+        if(horas <= 40)
+            salario = horas * 4
+        else{
+            salario = 40 * 4
+            salario = salario + (horas-40)*6
+        }
+
+        alert(`Salario Semanal: $${salario}`)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
